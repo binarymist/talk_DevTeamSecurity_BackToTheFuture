@@ -32,7 +32,7 @@ Note:
 
 #### OWASP
 
-* <!-- .element: style="font-size: 2rem;" --> Application Security Verification Standard (<a href="proj-media/OWASPApplicationSecurityVerificationStandard4.0.2-en.pdf" target="_blank">ASVS</a>)
+* <!-- .element: style="font-size: 2rem;" --> Application Security Verification Standard (<a href="proj-media/OWASPApplicationSecurityVerificationStandard4.0.3-en.pdf" target="_blank">ASVS</a>)
 * <!-- .element: style="font-size: 2rem;" --> Software Assurance Maturity Model (<a href="proj-media/OWASP-SAMM-v2.0.pdf" target="_blank">SAMM</a>)
 * <!-- .element: style="font-size: 2rem;" --> Software Component Verification Standard (<a href="proj-media/OWASP_SCVS-1.0-en.pdf" target="_blank">SCVS</a>)
 * <!-- .element: style="font-size: 2rem;" --> <a href="https://cheatsheetseries.owasp.org/" target="_blank">~75 Cheat Sheets</a>
@@ -45,8 +45,8 @@ Note:
 
 * <!-- .element: style="font-size: 2rem;" --> SANS <a href="https://www.sans.org/top25-software-errors/" target="_blank">Top 25</a>
 * <!-- .element: style="font-size: 2rem;" --> Mitre <a href="https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html" target="_blank">Top 25</a>
+* <!-- .element: style="font-size: 2rem;" --> CISQ <a href="https:/it-cisq.org/coding-rules/index.htm" target="_blank">Code Quality Rules</a>
 * <!-- .element: style="font-size: 2rem;" --> CIS Controls
-* <!-- .element: style="font-size: 2rem;" --> others
 
 Note:
 How did we used to measure the security maturity of the software that our Dev Teams produced?
@@ -57,24 +57,35 @@ Lot's of docs to read, standards to attempt to adhere to.
 
 Confusing
 
-So much to learn before you could even get started.
+So much to learn before you feel like you could even get started.
 
 So much manual testing and verification work
 
 These standards are not prescriptive enough, they don't really provide metrics to measure, or if they do, there are far too many.<br>
-Provide very long lists of check boxes for technical people to work through manually.
+Provide very long lists of check boxes for Type 2 people to work through manually.
+
+----
+
+<!-- .element: data-background-image="proj-img/ScaryStuff.jpeg" data-background-opacity="1" -->
+
+Note:
+Scary stuff
 
 ----
 
 ## Tooling
 
+<video data-autoplay src="proj-media/manual-tooling.mp4"></video>
+
 Mostly manual
 
 Note:
 
-A lot of manual work
+A lot of manual work.
 
-Sure we had tools, but we mostly drove them manually
+Sure we had tools, but we mostly drove them manually.
+
+Felt like we weren't getting anywhere.
 
 ----  ----
 
@@ -98,10 +109,12 @@ Many of us are still trying to hold on to the past (left arrow to the past then 
 2. Some new standards are emerging and starting to reflect this also
 3. Security documentation and tooling is starting to grow up.
 4. Discus new NIST almost standard.  
-  NIST is trying to make a smaller, simpler, more achievable standard that can also be understood by non tech types.<br>
+  NIST is trying to make a smaller, simpler, more achievable standard that can also be understood by Type 1 people.<br>
   It's prescriptive, less intimidating, measurable and concise.<br>
   Not technically a standard yet
-5. Discuss accompanying doc
+5. Discuss accompanying doc  
+  Abstract on pg 4<br>
+  Contents on pg 6
 
 The new NIST (almost standard) lends itself very well to being automated, and it's no accident.
 
@@ -169,7 +182,21 @@ This is all part of infosec commoditisation.
 
 As Developers you can expect to see the level of technical detail lifting so as to focus on more abstract topics and activities. Such as verification as opposed to hands-on testing.
 
-Standards will continue to become higher level, and the tool-chains will continue to support.
+Standards will continue to become higher level, and the tool-chains will continue to increase their support of them.
+
+----
+
+<!-- .element: data-background-image="proj-img/So.jpeg" data-background-opacity="1" -->
+
+Note:
+So....
+
+----
+
+<!-- .element: data-background-image="proj-img/Relax.jpeg" data-background-opacity="1" -->
+
+Note:
+Relax, there's no need to stress.
 
 ----
 
@@ -189,9 +216,38 @@ With the new Runtime Application Self Protection (RASP) type tooling such as:
 * hdiv
 * others..
 
-Your applications can now defend themselves
+Your applications can now defend themselves, without you writting additional code.
 
 Sqreen has a microagent which becomes a lib dependency of your app code.
+
+----
+
+<!-- .element: data-background-image="proj-img/Star0.jpeg" data-background-opacity="1" -->
+
+Note:
+Big thanks to the star of the talk... Max
+
+----
+
+<!-- .element: data-background-image="proj-img/Star1.jpeg" data-background-opacity="1" -->
+
+Note:
+And of course you for listening to me.
+
+----
+
+<!-- .element: data-background-image="proj-img/Star2.jpeg" data-background-opacity="1" -->
+
+Note:
+Seriously
+
+----
+
+<!-- .element: data-background-image="proj-img/Star4.jpeg" data-background-opacity="1" -->
+
+----
+
+<!-- .element: data-background-image="proj-img/Star3.jpeg" data-background-opacity="1" -->
 
 ----
 
@@ -199,4 +255,12 @@ Sqreen has a microagent which becomes a lib dependency of your app code.
   <a href="https://twitter.com/purpleteamlabs" target="_blank"><i class="fab fa-twitter"></i> purpleteamlabs</a>
   <!--<a href="https://twitter.com/OWASPPurpleTeam" target="_blank"><i class="fab fa-twitter"></i> OWASPPurpleTeam</a>-->
 </span>
+
+Note:
+T-shirt question
+
+* <b>Q</b> How many Techniques are there in the new NIST standard?
+* <b>A</b> 12
+* <b>Q</b> Which of the Technique Class's had the most techniques?
+* <b>A</b> Dynamic Analysis
 
