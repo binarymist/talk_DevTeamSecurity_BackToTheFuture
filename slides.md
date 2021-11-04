@@ -196,7 +196,7 @@ So....
 <!-- .element: data-background-image="proj-img/Relax.jpeg" data-background-opacity="1" -->
 
 Note:
-Relax, there's no need to stress.
+Relax, you've got this, there's no need to stress.
 
 ----
 
